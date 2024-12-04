@@ -27,7 +27,7 @@ function playGame() {
     let humanSelection = getHumanChoice();
     let computerSelection = getComputerChoice();
 
-    function nextRound() {
+    function setNextRound() {
         humanSelection = getHumanChoice();
         computerSelection = getComputerChoice();
      }
@@ -58,13 +58,13 @@ function playGame() {
         }  
     }
     playRound(humanSelection, computerSelection);
-    nextRound();
+    setNextRound();
     playRound(humanSelection, computerSelection);
-    nextRound();
+    setNextRound();
     playRound(humanSelection, computerSelection);
-    nextRound();
+    setNextRound();
     playRound(humanSelection, computerSelection);
-    nextRound();
+    setNextRound();
     playRound(humanSelection, computerSelection);
 
     if(humanScore === computerScore) {
@@ -82,4 +82,5 @@ function playGame() {
     }
     
 }
+
 playGame();
