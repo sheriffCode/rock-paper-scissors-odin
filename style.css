@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+div{
+    /* border: 1px solid red; */
+}
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text {
+    /* max-width: 50%; */
+}
